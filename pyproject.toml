@@ -1,0 +1,19 @@
+[project]
+name = "flatmates-bill-app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = " GrosseFripouille ",email = "vivien.toulemonde@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "certifi (==2020.12.5)",
+    "chardet (==3.0.4)",
+    "filestack-python (==3.2.1)",
+    "fpdf (==1.7.2)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
